@@ -1,0 +1,121 @@
+        /* Center the header content */
+        .header {
+            
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .logo img {
+            width: 100px; /* Adjust the logo size */
+        }
+
+        .user-account {
+            text-align: center;
+        }
+
+        .user-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .username {
+            margin-top: 5px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .logout-btn {
+            display: inline-block;
+            padding: 5px 10px;
+            font-size: 14px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .logout-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Center "Visitor List" text */
+        .h12 {
+            text-align: center;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .text1{
+            color: red;
+        }
+
+        /* Display the current date on the right-hand side */
+        .current-date {
+            position: absolute;
+            right: 0;
+            top: 0;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Style the "Add New Visitor" button */
+        .btn.signin a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #28a745;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .btn.signin a:hover {
+            background-color: #218838;
+        }
+
+        /* Center "Add New Visitor" button */
+        .btn.signin {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Search Bar Styles */
+        .search-bar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .search-bar input[type="text"], .search-bar input[type="date"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search-bar button:hover {
+            background-color: #0056b3;
+        }
+        .red-text {
+        color: red;
+    }
